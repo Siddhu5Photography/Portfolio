@@ -41,7 +41,7 @@ body {
   transition: background 0.3s ease;
 }
 .hero .btn:hover {
-  background: #148f77;
+  background: #1D2BD1;
 }
 
 section {
@@ -100,7 +100,7 @@ button {
   font-size: 1em;
 }
 button:hover {
-  background: #148f77;
+  background: #1D2BD1;
 }
 
 footer {
