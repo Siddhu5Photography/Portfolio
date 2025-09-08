@@ -49,7 +49,7 @@ body {
   background: url('../images/Untitled-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   bacground-position: center center;
   margin: 0;
   height: 100vh;
