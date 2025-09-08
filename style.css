@@ -47,6 +47,7 @@ body {
 
 .hero {
   background: url('../images/Untitled-4.jpg') center/cover no-repeat;
+  margin: 0;
   height: 100vh;
   width: 100vw;
   display: flex;
