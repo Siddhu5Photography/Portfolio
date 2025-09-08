@@ -12,7 +12,7 @@
   width: 100%; /* Makes it span the full width */
   display: flex;
   justify-content: space-between; 
-  align-items: center; /* Aligns items vertically to the center */
+  align-items: flex-end; /* Aligns items vertically to the right */
   background: rgba(255, 255, 255, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4px);
