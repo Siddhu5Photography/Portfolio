@@ -9,7 +9,7 @@
   position: sticky; /* Keeps the navbar sticky to the viewport */
   top: 0; /* Anchors it to the top */
   width: 100%; /* Makes it span the full width */
-  background-color: var(--light); /* Example background */
+  background-color: var(--accent); /* Example background */
   z-index: 1000; /* Ensure it stays above other content */
 }
 
