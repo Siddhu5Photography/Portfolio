@@ -13,6 +13,7 @@
   height: 64px; /* Height of nav bar */
   width: 100%; /* Makes it span the full width */
   display: flex;
+  gap: var(--gap, 2rem);
   justify-content: flex-end; 
   align-items: center; /* Aligns items vertically to the right */
   background: rgba(255, 255, 255, 0.21);
