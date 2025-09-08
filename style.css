@@ -6,6 +6,7 @@
 }
 
 .topnav {
+  float: right;
   position: sticky; /* Keeps the navbar sticky to the viewport */
   top: 0; /* Anchors it to the top */
   height: 64px; /* Height of nav bar */
