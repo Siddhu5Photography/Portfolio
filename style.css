@@ -10,11 +10,14 @@
   top: 0; /* Anchors it to the top */
   height: 64px; /* Height of nav bar */
   width: 100%; /* Makes it span the full width */
-background: rgba(255, 255, 255, 0.21);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4px);
--webkit-backdrop-filter: blur(4px);
-border: 1px solid rgba(255, 255, 255, 0.28);
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; /* Aligns items vertically to the center */
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
   z-index: high; /* Ensure it stays above other content */
   
 }
