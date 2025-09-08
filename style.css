@@ -9,9 +9,10 @@
   position: sticky; /* Keeps the navbar sticky to the viewport */
   top: 0; /* Anchors it to the top */
   width: 100%; /* Makes it span the full width */
-  background-color: var(--accent); /* Example background */
+  background-color: var(--accent); 
   z-index: 1000; /* Ensure it stays above other content */
   justify-content: flex-end; /* Aligns all items to the right */
+  padding: 10px 20px;
 }
 
 body {
