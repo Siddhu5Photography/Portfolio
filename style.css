@@ -46,7 +46,9 @@ body {
 }
 
 .hero {
-  background: url('../images/Untitled-4.jpg') center/cover no-repeat;
+  background: url('../images/Untitled-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   bacground-position: center center;
   margin: 0;
