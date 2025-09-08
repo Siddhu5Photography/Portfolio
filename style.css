@@ -42,7 +42,8 @@ body {
 
 .hero {
   background: url('../images/Untitled-4.jpg') center/cover no-repeat;
-  height: 100vh;
+  height: 100dvh;
+  width: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
