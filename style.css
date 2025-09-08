@@ -5,6 +5,19 @@
   --bg: #f5f5f5;
 }
 
+.navbar {
+  position: sticky; /* Keeps the navbar sticky to the viewport */
+  top: 0; /* Anchors it to the top */
+  width: 100%; /* Makes it span the full width */
+  background-color: #1D2BD1; /* Example background */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+body {
+  padding-top: 60px; /* Adjust based on your navbar's height */
+}
+
+
 body {
   font-family: 'Lato', sans-serif;
   color: var(--primary);
