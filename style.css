@@ -24,9 +24,29 @@
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.28);
   z-index: high; /* Ensure it stays above other content */
-  img {
-    height: 60px;
-  }
+}
+
+.topnav img {
+  height 50px;
+}
+
+.topnav il {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav ul li a {
+  text-decoration: none;
+  colour: var(--primary);
+  font-weight: 400;
+  font-size:1rem;
+}
+
+.topnav ul li a:hover {
+  colour: var(--accent);
 }
 
 body {
