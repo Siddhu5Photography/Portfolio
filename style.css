@@ -9,30 +9,30 @@
   position: sticky; /* Keeps the navbar sticky to the viewport */
   top: 0; /* Anchors it to the top */
   margin: 0;
-  padding: 0;
+  padding: 0 40px;
   height: 60px; /* Height of nav bar */
   width: 100%; /* Makes it span the full width */
   font-family: 'Lato', san-serif;
   text-decoration: none;
   display: flex;
   gap: var(--gap, 2rem);
-  justify-content: center; 
+  justify-content: space-between; 
   align-items: center; /* Aligns items vertically to the right */
   background: rgba(255, 255, 255, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  z-index: high; /* Ensure it stays above other content */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border bottom: 1px solid rgba(255, 255, 255, 0.28);
+  z-index: 1000; /* Ensure it stays above other content */
 }
 
 .topnav img {
   height 50px;
+  object-fit: contain;
 }
 
 .topnav il {
-  list-style: none;
-  display: flex;
+  display: inline;
   gap: 2rem;
   margin: 0;
   padding: 0;
