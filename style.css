@@ -26,6 +26,7 @@
   z-index: high; /* Ensure it stays above other content */
   img {
     height: 60px;
+    justify-content: flex-start; 
   }
 }
 
