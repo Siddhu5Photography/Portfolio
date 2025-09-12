@@ -71,6 +71,8 @@ body {
 }
 
 .hero {
+  margin: 0;
+  padding: 0;
   background: url('../images/Untitled-4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
