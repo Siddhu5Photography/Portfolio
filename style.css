@@ -72,6 +72,7 @@ body {
 
 .hero {
   background: url('../images/Untitled-4.jpg');
+  background: linear-gradient(135deg, #1abc9c, #16a085);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
