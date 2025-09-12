@@ -31,12 +31,12 @@
 }
 
 .logo a {
-  font-family: 'Bonheur Royale', cursive; 
+  font-family: "Mr De Haviland", cursive;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
+  font-style: normal;
   text-decoration: none;
   color: var(--primary);
-  letter-spacing: 2px;
 }
 
 .topnav img {
