@@ -30,6 +30,15 @@
   font-family: 'Lato', sans-serif;
 }
 
+.logo a {
+  font-family: 'Bonheur Royale', cursive; 
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--primary);
+  letter-spacing: 2px;
+}
+
 .topnav img {
   height: 50px;
 }
