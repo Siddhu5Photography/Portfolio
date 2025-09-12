@@ -72,10 +72,10 @@ body {
 
 .hero {
   background: url('../images/Untitled-4.jpg');
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  bacground-position: center center;
+  background-position: center center;
   margin: 0;
   height: 100vh;
   display: flex;
