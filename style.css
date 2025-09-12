@@ -204,6 +204,19 @@ h2 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Mobile Friendly */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text, .about-image {
+    flex: unset;
+    width: 100%;
+  }
+}
+
 form {
   display: flex;
   flex-direction: column;
