@@ -21,6 +21,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr; /* left empty, logo center, menu right */
   align-items: center;
+  padding 10px 60px;
   background: rgba(255, 255, 255, 0.21);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -47,7 +48,7 @@
 .menu {
   grid-column: 3; /* right column */
   display: flex;
-  gap: 8rem;
+  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
