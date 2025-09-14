@@ -19,7 +19,7 @@
   height: 70px;
   padding: 0 40px;
   display: grid;
-  grid-template-columns: 1fr auto 2fr; /* left empty, logo center, menu right */
+  grid-template-columns: 1fr auto 4fr; /* left empty, logo center, menu right */
   align-items: center;
   padding: 10px 60px;
   background: rgba(255, 255, 255, 0.21);
